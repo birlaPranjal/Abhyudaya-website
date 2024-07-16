@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="sm:bg-rich-blue-bg bg-[#111644ee] fixed sm:static w-full z-20 sm:opacity-90  ">
       <div className="w-11/12 mx-auto flex items-center justify-between">
-        <div className="py-2 flex ">
+        <Link href={"./"} className="py-2 flex ">
           <Image
             src={svvvLogo}
             className=" md:translate-y-1 h-10 sm:h-20 w-10 sm:w-20"
@@ -29,7 +29,7 @@ const Navbar = () => {
             className="-translate-y-1 h-10 sm:h-20 w-10 sm:w-20"
             alt="Logo"
           />
-        </div>
+        </Link>
         <div className="text-white hidden sm:flex sm:translate-x-16">
           {navData?.map((item, idx) => (
             <Link

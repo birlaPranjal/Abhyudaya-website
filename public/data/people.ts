@@ -97,7 +97,7 @@ export const team: Array<Person> = [
     id: 1,
     img: mayank,
     name: "Mayank Matkar",
-    post: "Development Joint Head",
+    post: "Development Head",
   },
   {
     id: 2,
@@ -121,7 +121,7 @@ export const team: Array<Person> = [
     id: 5,
     img: krip,
     name: "Kripansh Kumravat",
-    post: "Development Joint Head",
+    post: "Development Head",
   },
   {
     id: 6,

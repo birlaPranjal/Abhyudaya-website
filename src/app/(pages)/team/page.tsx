@@ -5,7 +5,7 @@ import TeamSection from "@/components/TeamSection";
 
 const Team = () => {
   return (
-    <div className="bg-rich-blue-bg w-full text-white min-h-screen">
+    <div className="bg-rich-blue-bg w-full text-white min-h-screen pt-16 sm:pt-8 md:pt-2">
       <TeamSection team={team} />
     </div>
   );

@@ -134,7 +134,7 @@ export default function Home() {
       <FacultySection faculties={coordinators} />
 
       <TeamSection team={boardMembers} />
-      <div className="flex justify-center">
+      <div className="flex justify-center mt-10">
         <Button linkTo="/team" text="View more" rounded={true} />
       </div>
       <SectionDividerLine />
